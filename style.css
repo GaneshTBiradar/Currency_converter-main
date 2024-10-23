@@ -1,0 +1,147 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: darksalmon;
+}
+
+.container{
+    
+    background-color: white;
+    /* margin-top: 200px; */
+    padding: 40px;
+    border-radius: 1.8rem;
+    height: 300px;
+    width: 300px;
+}
+body{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    gap: 5px;
+
+}
+
+form select ,input,button {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 0.75px;
+}
+
+
+form input{
+    font-size: 1rem;
+    border: 1px solid lightgray;
+    height: 1.2rem;
+    padding-left: 0.5rem;
+    border-radius: 10px;
+}
+
+.select-container img{
+    max-width: 2rem;
+   
+}
+
+.select-container{
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    width: 7rem;
+    border: 1px solid lightgrey;
+}
+
+i{
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+.select-container select{
+    font-size: 0.95rem;
+}
+
+.message{
+    margin-top: 1.5rem;
+}
+
+button{
+    margin-top: 2rem;
+    height: 2.5rem;
+    background-color: #af4d98;
+    color: white;
+    border-radius: 10px;
+    font-size: 1.18rem;
+    cursor: pointer;
+}
+
+.amount{
+    margin-top: 1.7rem;
+   
+    
+}
+
+
+@media only screen and (max-width:455px){
+    .container{
+        width: 200px;
+        height: 320px;
+    }
+
+    .select-container{
+        width: 100%;
+    }
+
+    .to{
+        /* border: 2px solid black; */
+        /* width: 100px;gu */
+    }
+    .from{
+        /* border: 2px solid black; */
+        /* width: 980px; */
+    }
+    .dropdown{
+        /* border: 2px solid blue; */
+        /* width: 160px; */
+        /* width: 100%; */
+    }
+    .container{
+       /* border: 2px solid black; */
+    }
+    form{
+        /* border: 2px solid red; */
+        width: 100%;
+        /* display: flex;  */
+        /* justify-content: center; */
+        
+    }
+    .message{
+        text-align: center;
+    }
+    input{
+        width: 95%;
+    }
+    h2{
+        text-align: center;
+    }
+    img{
+        width: 20px;
+    }
+}
+
+
+
+
